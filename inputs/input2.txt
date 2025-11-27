@@ -1,0 +1,13 @@
+program Example;
+
+var r: integer;
+
+function suma(a: integer; b: integer): integer;
+begin
+    suma := a + b * 2;
+end;
+
+begin
+    r := suma(4, 6);
+    writeln(r);
+end.

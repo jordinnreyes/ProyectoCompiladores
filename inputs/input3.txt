@@ -1,0 +1,21 @@
+program Example;
+
+var resultado: integer;
+
+function max(a: integer; b: integer): integer;
+begin
+    if a > b then
+        max := a
+    else
+        max := b;
+end;
+
+function doble(x: integer): integer;
+begin
+    doble := x * 2;
+end;
+
+begin
+    resultado := doble( max(10, 7) );
+    writeln(resultado);
+end.

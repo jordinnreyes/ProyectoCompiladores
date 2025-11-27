@@ -1,0 +1,21 @@
+program Example;
+
+type
+    realito = float;
+    entero = integer;
+    positivo = unsigned;
+
+var
+    a : entero;
+    b : realito;
+    c : positivo;
+    d : positivo;
+
+begin
+    a := 5;
+    b := a * 2.5;
+    c := 20;
+    d := c + a;
+    writeln(b);
+    writeln(d);
+end.

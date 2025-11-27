@@ -1,0 +1,6 @@
+program Example;
+var x : float;
+begin
+    x := 1.5 + 2.0 * 3.0 - 4.5;
+    writeln(x);
+end.

@@ -1,0 +1,16 @@
+program Example;
+
+type
+    enteroGrande = longint;
+    realito = float;
+
+var
+    x : enteroGrande;
+    y : realito;
+
+begin
+    x := 9999999999;
+    y := 3.14;
+    writeln(x);
+    writeln(y);
+end.

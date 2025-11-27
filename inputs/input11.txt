@@ -1,0 +1,11 @@
+program Example;
+
+var
+    u : unsigned;
+    r : float;
+
+begin
+    u := 50;
+    r := float(u) / 3;
+    writeln(r);
+end.

@@ -1,0 +1,13 @@
+program Example;
+
+var x: integer;
+
+function foo(): integer;
+begin
+    foo := 5 + 3;
+end;
+
+begin
+    x := foo();
+    writeln(x);
+end.

@@ -1,0 +1,14 @@
+program Example;
+
+var
+    a : integer;
+    b : float;
+    c : unsigned;
+
+begin
+    a := 10;
+    b := a + 2.5;
+    c := a + 20;
+    writeln(b);
+    writeln(c);
+end.

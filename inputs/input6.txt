@@ -1,0 +1,14 @@
+program Example;
+
+var
+    edad : integer;
+
+begin
+    edad := 16;
+
+    if edad >= 18 then
+        writeln(1)
+    else
+        writeln(0);
+
+end.

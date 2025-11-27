@@ -1,0 +1,18 @@
+program Example;
+
+function calcular(a : longint; b : float; c : unsigned) : float;
+begin
+    calcular := a + b + c;
+end;
+
+var
+    x : longint;
+    y : float;
+    z : unsigned;
+
+begin
+    x := 1000;
+    y := 2.5;
+    z := 10;
+    writeln(calcular(x, y, z));
+end.

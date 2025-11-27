@@ -1,0 +1,12 @@
+program Example;
+var n : integer;
+begin
+    n := 10;
+
+    while (0) do
+    begin
+        n := n + 1;
+    end;
+
+    writeln(n);
+end.

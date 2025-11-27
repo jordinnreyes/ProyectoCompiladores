@@ -1,0 +1,15 @@
+program Example;
+var a, b : integer;
+begin
+    a := 4 * (2 + 3);
+    b := a + 0;
+    if (a - 20) then
+        writeln(999);
+
+    while (a - 20) do
+    begin
+        a := a + 1;
+    end;
+
+    writeln(b);
+end.

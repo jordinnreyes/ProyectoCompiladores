@@ -1,0 +1,14 @@
+program Example;
+
+type
+    entero = integer;
+
+var
+    a : entero;
+    b : integer;
+
+begin
+    a := 7;
+    b := a * 3;
+    writeln(b);
+end.
