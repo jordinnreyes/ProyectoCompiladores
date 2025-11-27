@@ -1,5 +1,5 @@
 # ProyectoCompiladores
 
 ##Integrantes
-  - Efrén Paolo
+  - Efrén Paolo Centeno Rosas
   - Jordinn Martin Reyes Medina  
