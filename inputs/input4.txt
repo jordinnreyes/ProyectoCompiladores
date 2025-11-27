@@ -1,25 +1,12 @@
 program Example;
 
-
-
 var
-    x: integer;
-
-function factorial(n: integer): integer;
-var
-    dummy: integer;  
-begin
-    if n < 2 then
-        factorial := 1;
-    else
-        factorial := n * factorial(n - 1);
-    
-end;
-
-
+    x, y : integer;
 
 begin
-
-    x := 5;
-    writeln(factorial(x));
+    x := 10;
+    y := x + 5;
+    writeln(y);
 end.
+
+
